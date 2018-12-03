@@ -1,8 +1,7 @@
 package persistencia;
 
-import java.awt.Image;
+import model.Image;
 
 public interface ImageLoader {
-    public Image Load();
-    
+    Image Load();
 }
