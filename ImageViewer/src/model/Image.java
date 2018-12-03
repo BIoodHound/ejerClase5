@@ -2,10 +2,10 @@ package model;
 
 import java.awt.Image;
 import java.io.InputStream;
+public interface Image {
+    String name();
+    InputStream stream();
+    Image next();
+    Image prev();
 
-public interface image {
-    public String name();
-    public InputStream stream();
-    public Image next();
-    public Image prev();
 }
