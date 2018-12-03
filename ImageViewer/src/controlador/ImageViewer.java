@@ -3,7 +3,7 @@ package controlador;
 import java.io.File;
 import model.Image;
 import persistencia.FileImageLoader;
-
+//TODO Fix main
 public class ImageViewer {
     public static void main(String[] args) {
         File file = new File("C:\\Users\\gonca\\Pictures\\");
